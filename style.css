@@ -1,6 +1,35 @@
-.container-left {
-    float: left;
+@font-face {
+	font-family: prxm;
+	src: url(ProximaNova-Regular.Otf);
 }
-.container-right {
-    float: right;
+
+  * {
+	font-family: prxm;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 180px 0 100px 0;
+    background-image: url(images/bg-desktop.svg);
+    background-size: cover;
+    background-color: #674BB1;
+    color: white;
+    text-align: center;
+}
+
+.container-right a {
+	/* Mengatur button */
+	display: inline-block;
+	/* mengatur jarak antara text didalam button dengan outline button */
+	padding: 10px 20px;
+	background: #00ab6b;
+	border-radius: 20px;
+	text-align: center;
+    color: #fff;
+    text-decoration: none;
 }
