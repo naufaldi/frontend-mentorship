@@ -7,9 +7,14 @@
 	font-family: prxm;
 }
 
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-color: #674BB1;
+}
 .logo {
-    width: 152px;
+    width: 256px;
     margin-top: 20px;
+    margin-left: 64px;
 }
 
 .container {
@@ -19,10 +24,7 @@
 }
 
 .content {
-    padding: 180px 0 100px 0;
-    background-image: url(images/bg-desktop.svg);
-    background-size: cover;
-    background-color: #674BB1;
+    padding: 96px 0 0 0;
     color: white;
     text-align: center;
     display: flex;
@@ -34,10 +36,12 @@
 
 .container-right {
     text-align: left;
+    margin-right: 64px;
 }
 
 .container-right h1 {
     font-size: 48px;
+    margin-right: 128px;
 }
 
 .container-right p {
@@ -54,4 +58,15 @@
 	text-align: center;
     color: #674BB1;
     text-decoration: none;
+    box-shadow: 8px 8px 5px #46289b;
+}
+
+.social-container {
+    display: flex;
+    float: right;
+    margin-right: 64px;
+}
+
+.social-wrapper {
+    margin: 0 20px;
 }
