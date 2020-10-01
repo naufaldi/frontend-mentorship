@@ -91,7 +91,7 @@
     padding-right: 12px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1024px) {
     .container {
         min-width: 375px;
         background-color: hsl(257, 40%, 49%);
