@@ -2,52 +2,46 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="style.css" rel="stylesheet" />
 
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
-  <title>Huddle</title>
-
+  <title> Frontend Mentor | Huddle landing page with single introductory section</title>
 </head>
 
 <body>
+  <div class="container">
 
-  <header>
-    <div class="header-logo">
-      <img class="logo" src="images/logo.svg">
-    </div>
-  </header>
+    <nav>
+      <div class="logo"><img src="images/logo.svg" alt="logo"></div>
+    </nav>
 
-  <div class="content">
-
-    <div class="container-left">
-      <img src="images/illustration-mockups.svg" alt="">
-    </div>
-
-    <div class="container-right">
-      <h1>Build The Community Your Fans Will Love</h1>
-      <p>Huddle re-imagines the way we build communities. You have a voice, but so sodes your audience. Create
-        Connections with your users as you engage in genuine discussion.</p>
-      <a href="#" alt="">Register</a>
-    </div>
-
-  </div>
-
-  <footer>
-    <div class="footer-social">
-      <div class="social-container">
-        <div class="social-wrapper"><a href="#" target="_blank" title="Facebook"><img class=""
-              src="images/facebook.svg"></i></a></div>
-        <div class="social-wrapper"><a href="#" target="_blank" title="Twitter"><img class=""
-              src="images/twitter.svg"></i></a></div>
-        <div class="social-wrapper"><a href="#" target="_blank" title="Instagram"><img class=""
-              src="images/instagram.svg"></i></a></div>
+    <div class="row">
+      <div class="row__mockup"><img src="images/illustration-mockups.svg" alt="mockup"></div>
+      <div class="row__info">
+        <div class="row__info__text">
+          <h1>Build The Community</h1>
+          <h2>Your Fans Will Love</h2>
+          <p>Huddle re-imagines the way we build
+            communities. You have a voice, but so does your audience. Create connections
+            with your users as you engage in genuine discussion.</p>
+        </div>
+        <button class="row__info__btn">Register</button>
       </div>
     </div>
-  </footer>
+    
+    <footer>
+      <div class="socials">
+        <div class="socials__fb"><a href="https://www.facebook.com/" class="fa fa-facebook"></a></div>
+        <div class="socials__tw"><a href="https://twitter.com/" class="fa fa-twitter"></a></div>
+        <div class="socials__in"><a href="https://www.instagram.com/" class="fa fa-instagram"></a></div>
+      </div>
+    </footer>
+  </div>
 
 </body>
 
